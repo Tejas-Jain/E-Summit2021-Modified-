@@ -1027,7 +1027,23 @@ transition: ease 0.3s;
   align-items: center;
   text-align: justify;
   box-sizing: border-box;
+  position: relative;
 }
+.culturees:after{
+  content: "";
+  background: url(../indie/smoke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .culture_head{
   margin-top: 20px !important;
   margin-bottom: 20px;
@@ -1066,9 +1082,8 @@ transition: ease 0.3s;
   align-items: center;
   border-radius: 20px;
   background: linear-gradient(135deg, #1a1a1a,rgb(8, 8, 8));
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #1b1b1b 74%);
-
+  background-color: 1b1b1b;
+  background-image: linear-gradient(315deg, #1c0138 0%, #1b1b1b 74%);
 }
 
 .cultcont .cultcard img{
@@ -1266,6 +1281,21 @@ font-family: 'Roboto', sans-serif; */
   align-items: center;
   justify-content:center;
   width: 100%;
+  position: relative;
+}
+.compes:after {
+  content: "";
+  background: url(../indie/colorboom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .competition_head{
@@ -1489,7 +1519,21 @@ line-height: 21px;
   align-items: center;
   width: 100%;
   flex-direction: column;
-  
+  position: relative;
+}
+.contactes:after {
+  content: "";
+  background: url(../indie/designMandel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
   
 .contactbox{
@@ -1713,7 +1757,22 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     width: 100%;
     height: fit-content;
+    position: relative;
   }
+.footeres:after {
+  content: "";
+  background: url(../indie/designMandel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
   .socimg{
     margin-top:30px;
